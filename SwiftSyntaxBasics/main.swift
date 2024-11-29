@@ -5,11 +5,13 @@
 //  Created by Martinus Andika Novanawa on 27/11/24.
 //
 
-// [Section 1: Basic Structure of a Swift Program]
+/// __[Section 1: Basic Structure of a Swift Program]__
+
 // A simple Swift program
 print("Hello, world!")
 
-// [Section 2: Printing Output]
+/// __[Section 2: Printing Output]__
+
 // Example 1: Print a string
 print("Welcome to Swift!")
 
@@ -17,7 +19,8 @@ print("Welcome to Swift!")
 let name = "Martinus"
 print("Hello, \\(name)!")
 
-// [Section 3: Comments in Swift]
+/// __[Section 3: Comments in Swift]__
+
 // This is a single-line comment
 print("This code will run.")
 
@@ -27,7 +30,8 @@ print("This code will run.")
 */
 print("Multi-line comments are useful for longer explanations.")
 
-// [Section 4: Writing Cleaner Code with Comments]
+/// __[Section 4: Writing Cleaner Code with Comments]__
+
 // 1. Organizing Code with Section Comments
 // MARK: - User Authentication Logic
 func loginUser(username: String, password: String) -> Bool {
@@ -66,7 +70,8 @@ func factorial(_ number: Int) -> Int {
     return number == 1 ? 1 : number * factorial(number - 1)
 }
 
-// [Section 5: Putting It All Together]
+/// __[Section 5: Putting It All Together]__
+
 // MARK: - Example Section: Factorial Calculator
 
 /// Calculates the factorial of a number using recursion.
