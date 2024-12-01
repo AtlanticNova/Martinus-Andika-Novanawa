@@ -17,7 +17,7 @@ print("Welcome to Swift!")
 
 // Example 2: Print variables
 let name = "Martinus"
-print("Hello, \\(name)!")
+print("Hello, \(name)!")
 
 /// __[Section 3: Comments in Swift]__
 
@@ -89,4 +89,4 @@ func factorials(_ number: Int) -> Int {
 // TODO: Add a unit test for factorial function
 
 let result = factorial(5) // Calculates 5! (5 * 4 * 3 * 2 * 1)
-print("Factorial of 5 is \\(result)") // Output: Factorial of 5 is 120
+print("Factorial of 5 is \(result)") // Output: Factorial of 5 is 120

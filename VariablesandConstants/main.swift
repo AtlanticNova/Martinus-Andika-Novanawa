@@ -19,8 +19,8 @@ age = 23
 print("Now I am \(age) years old.") // Output: Now I am 23 years old.
 
 // Declaring a Constant (let)
-let pi = 3.14
-print("The value of pi is \\(pi).") // Output: The value of pi is 3.14
+let pie = 3.14
+print("The value of pi is \(pi).") // Output: The value of pi is 3.14
 // TODO: Uncomment line 20 (CMD + /), you'll see the error
 //pi = 3.14159 // Error: Cannot assign to value: 'pi' is a constant
 
@@ -47,3 +47,17 @@ let greeting: String = "Hello, Swift!"
  1. Use let for constants – values you’re sure won’t change, like user ID, tax rates, or fixed strings.
  2. Use var for variables – values that may change, like counters, scores, or user input.
 */
+
+/// __[Section 6: Common Mistakes and Tips]
+
+/* Write your own notes, ideas, or important points to remember here */
+
+/// __[Section 7: Practical Example]__
+
+let pi = 3.14
+var radius = 5.0
+let area = pi * radius * radius
+print("The area of the circle is \(area).")
+radius = 10.0
+let newArea = pi * radius * radius
+print("The new area of the circle is \(newArea).")
