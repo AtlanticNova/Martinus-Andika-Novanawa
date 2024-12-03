@@ -21,7 +21,7 @@ print("Now I am \(age) years old.") // Output: Now I am 23 years old.
 // Declaring a Constant (let)
 let pie = 3.14
 print("The value of pi is \(pi).") // Output: The value of pi is 3.14
-// TODO: Uncomment line 20 (CMD + /), you'll see the error
+// TODO: Uncomment line 25 (CMD + /), you'll see the error
 //pi = 3.14159 // Error: Cannot assign to value: 'pi' is a constant
 
 /// __[Section 3: Why Use let Over var?]__
